@@ -17,6 +17,7 @@
 		70E884CC273C7F1A001FE0CC /* ChecklistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E884CB273C7F1A001FE0CC /* ChecklistUITests.swift */; };
 		70E884CE273C7F1A001FE0CC /* ChecklistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E884CD273C7F1A001FE0CC /* ChecklistUITestsLaunchTests.swift */; };
 		70E884DC273C9EBF001FE0CC /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E884DB273C9EBF001FE0CC /* CheckListItem.swift */; };
+		70E884DE273CB0F6001FE0CC /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E884DD273CB0F6001FE0CC /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		70E884CB273C7F1A001FE0CC /* ChecklistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistUITests.swift; sourceTree = "<group>"; };
 		70E884CD273C7F1A001FE0CC /* ChecklistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		70E884DB273C9EBF001FE0CC /* CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		70E884DD273CB0F6001FE0CC /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				70E884B3273C7F1A001FE0CC /* Assets.xcassets */,
 				70E884B5273C7F1A001FE0CC /* LaunchScreen.storyboard */,
 				70E884B8273C7F1A001FE0CC /* Info.plist */,
+				70E884DD273CB0F6001FE0CC /* AddItemViewController.swift */,
 			);
 			path = Checklist;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E884DE273CB0F6001FE0CC /* AddItemViewController.swift in Sources */,
 				70E884AF273C7F19001FE0CC /* CheckListViewController.swift in Sources */,
 				70E884AB273C7F19001FE0CC /* AppDelegate.swift in Sources */,
 				70E884AD273C7F19001FE0CC /* SceneDelegate.swift in Sources */,

@@ -30,11 +30,9 @@ class CheckListViewController: UITableViewController {
     
     // MARK: - Selectors
     @objc func addButtonPressed() {
-        // IMPORTANT - This is the row that needs to be inserted next.
-        let newRowIndex = checkListItems.count
+        let controller = AddItemViewController()
+        navigationController?.pushViewController(controller, animated: true)
 
-        checkListItems.append(CheckListItem(isChecked: false, title: "Row: \(newRowIndex + 1)"))
-        tableView.insertRows(at: [IndexPath(row: newRowIndex, section: 0)], with: .automatic)
     }
     
     // MARK: - Helpers
